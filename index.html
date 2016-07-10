@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<title>Tetris</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+	<meta name="Hercoka" content="Desarrollo de videojuegos">
+	<link rel="stylesheet" type="text/css" href="styles/estilos.css" />
+</head>
+<body>
+
+	<div class="page">
+
+		<div class="main">
+
+			<div class="GameArea">
+				<div class="MenuGames">
+
+					<div class="mnuGame" onclick="OpenGame(1);">
+						<div class="Icon"><img src="img/tetris.png"></div>
+						<div class="Info">
+							<span class="Titulo">Tetris</span>
+							<span class="Texto">Ver: 1.0</span>
+							<span class="Texto">Mayo - 2015</span>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="Game">
+					<canvas id="game" width='800' height='500'>tu navegador no soporta canvas<canvas>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="about">
+				Hector Ochoa - hercoka@yahoo.com
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/tetris.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
